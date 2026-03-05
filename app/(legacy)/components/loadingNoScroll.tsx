@@ -1,0 +1,13 @@
+import { Loader } from './ui/loader';
+
+const FullScreenLoader = ({ isVisible }: { isVisible: boolean }) => {
+  return (
+    isVisible && (
+      <div className="fixed top-0 left-0 flex items-center justify-center w-screen h-screen bg-black z-50">
+        <Loader />
+      </div>
+    )
+  );
+};
+
+export default FullScreenLoader;
