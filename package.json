@@ -9,7 +9,7 @@
     "postbuild": "npx tsx sitemap.ts",
     "lint": "next lint",
     "start": "cross-env NODE_ENV=production node server.js",
-    "postinstall": "prisma generate && prisma db push",
+    "postinstall": "prisma generate",
     "test": "vitest",
     "test:ui": "vitest --ui",
     "test:coverage": "vitest --coverage",
