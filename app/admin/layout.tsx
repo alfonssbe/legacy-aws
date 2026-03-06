@@ -8,10 +8,10 @@ import '@/app/globals.css'
 
 const font = Inter({ subsets: ['cyrillic'] })
 
-export const metadata = {
-  title: 'Admin Dashboard',
-  description: 'All Admin Dashboard',
-}
+// export const metadata = {
+//   title: 'Admin Dashboard',
+//   description: 'All Admin Dashboard',
+// }
 
 export default async function AdminRootLayout({
   children,
