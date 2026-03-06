@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 
 import prismadb from '@/lib/prismadb';
 
-export async function GET(req: Request, props: { params: Promise<{ brandId: string }> }) {
+export async function GET(_: Request, props: { params: Promise<{ brandId: string }> }) {
   const params = await props.params;
   try {
 

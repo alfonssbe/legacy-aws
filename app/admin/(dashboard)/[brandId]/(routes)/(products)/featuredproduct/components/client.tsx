@@ -5,7 +5,6 @@ import { useParams, useRouter } from "next/navigation";
 import { DataTable } from "@/app/admin/components/ui/data-table";
 import { Heading } from "@/app/admin/components/ui/heading";
 import { Separator } from "@/components/ui/separator";
-import { ApiList } from "@/app/admin/components/ui/api-list";
 
 import { columns, FeaturedProductColumn } from "./columns";
 

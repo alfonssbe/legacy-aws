@@ -9,7 +9,7 @@ import { useState } from "react";
 
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/app/admin/components/ui/form";
 import { Input } from "@/components/ui/input";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/app/admin/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/app/admin/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 

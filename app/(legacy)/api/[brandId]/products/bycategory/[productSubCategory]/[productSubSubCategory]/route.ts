@@ -4,7 +4,7 @@ import prismadb from "@/lib/prismadb";
 import { NextResponse } from "next/server";
 
 export async function GET(
-  req: Request,
+  _: Request,
   props: { params: Promise<{ productSubCategory: string, productSubSubCategory: string }> }
 ) {
   const params = await props.params;

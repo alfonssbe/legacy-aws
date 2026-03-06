@@ -1,7 +1,7 @@
 "use client";
 
 import axios from "axios";
-import { BookIcon, Copy, Edit, MoreHorizontal, Settings2, Trash } from "lucide-react";
+import { BookIcon, Copy, Edit, MoreHorizontal, Trash } from "lucide-react";
 import { useParams, useRouter } from "next/navigation";
 import { useState } from "react";
 import { toast } from "react-hot-toast";

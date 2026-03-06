@@ -3,7 +3,7 @@ import { allproducts } from "@/app/(legacy)/utils/filterPageProps";
 import prismadb from "@/lib/prismadb";
 import { NextResponse } from "next/server";
 
-export async function GET(req: Request) {
+export async function GET(_: Request) {
   try {
     let neededSpec = allproducts
       const allTypes = await prismadb.allcategory.findMany({

@@ -3,7 +3,7 @@
 import { dynamicspecification, dynamicspecificationparent, dynamicspecificationsubparent, specificationconnector } from "@prisma/client"
 import { CirclePlus, Trash } from "lucide-react"
 import { useEffect, useState } from "react"
-import axios, { AxiosResponse } from "axios"
+import axios from "axios"
 import { useParams, useRouter } from "next/navigation"
 import toast from "react-hot-toast"
 import { Loader } from "@/app/admin/components/ui/loader"

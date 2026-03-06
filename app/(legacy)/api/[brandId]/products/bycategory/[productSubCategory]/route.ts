@@ -3,7 +3,7 @@ import { allproductsSubCat } from "@/app/(legacy)/utils/filterPageProps";
 import prismadb from "@/lib/prismadb";
 import { NextResponse } from "next/server";
 
-export async function GET(req: Request, props: { params: Promise<{ productSubCategory: string }> }) {
+export async function GET(_: Request, props: { params: Promise<{ productSubCategory: string }> }) {
   const params = await props.params;
   try {
     if (!params.productSubCategory) {

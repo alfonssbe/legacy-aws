@@ -1,6 +1,5 @@
 "use client"
 
-import Link from "next/link";
 import { NavigationMenuLink } from "./ui/navigation-menu";
 import { ChevronRight, Loader } from "lucide-react";
 import { useEffect, useState } from "react";

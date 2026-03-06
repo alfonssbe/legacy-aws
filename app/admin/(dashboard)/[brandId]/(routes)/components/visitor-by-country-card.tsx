@@ -1,7 +1,6 @@
 "use client"
 
-import { CardContent, CardHeader, CardTitle } from "@/app/admin/components/ui/card";
-import { Skeleton } from "@/components/ui/skeleton";
+import { CardContent } from "@/app/admin/components/ui/card";
 import { Bar, BarChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts"
 
 type Props = {

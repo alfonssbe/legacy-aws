@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogClose, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
-import { Dot, Eye, Globe, LaptopMinimal } from "lucide-react";
+import { Dot, LaptopMinimal } from "lucide-react";
 
 type Props = {
   LiveVisitor: { device: string, users: number }[],

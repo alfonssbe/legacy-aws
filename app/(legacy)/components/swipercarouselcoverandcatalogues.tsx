@@ -12,7 +12,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/thumbs';
 
 // import required modules
-import { FreeMode, Navigation, Thumbs, Pagination } from 'swiper/modules';
+import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
 import { Card, CardContent } from './ui/card';
 
 

@@ -1,5 +1,9 @@
-/** @type {import('next').NextConfig} */
+import bundleAnalyzer from "@next/bundle-analyzer";
+const withBundleAnalyzer = bundleAnalyzer({
+  enabled: process.env.ANALYZE === "true",
+});
 
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "standalone",
   reactCompiler: true,
@@ -7,6 +11,7 @@ const nextConfig = {
     serverActions: {
       bodySizeLimit: '50mb',
     },
+    // serverComponentsExternalPackages: ["@prisma/client", "prisma"],
   },
   poweredByHeader: false,
   compress: true,
@@ -73,4 +78,4 @@ const nextConfig = {
   },
 };
 
-export default nextConfig;
+export default withBundleAnalyzer(nextConfig);

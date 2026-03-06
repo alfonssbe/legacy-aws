@@ -6,7 +6,7 @@ import { useEffect, useState } from "react"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
 import { toast } from "react-hot-toast"
-import { contacts, distributors } from "@prisma/client"
+import { contacts } from "@prisma/client"
 import { useParams, useRouter } from "next/navigation"
 
 import { Input } from "@/components/ui/input"
@@ -21,7 +21,7 @@ import {
 } from "@/app/admin/components/ui/form"
 import { Separator } from "@/components/ui/separator"
 import { Heading } from "@/app/admin/components/ui/heading"
-import { ChevronDownIcon, CirclePlus, Trash } from "lucide-react"
+import { CirclePlus, Trash } from "lucide-react"
 import { GetCountries, GetState, GetCity } from "react-country-state-city";
 import { City, Country, State } from "react-country-state-city/dist/esm/types"
 import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue } from "@/app/admin/components/ui/select"

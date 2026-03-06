@@ -9,14 +9,6 @@ import { useParams, useRouter } from "next/navigation"
 
 import { Separator } from "@/components/ui/separator"
 import { Heading } from "@/app/admin/components/ui/heading"
-import {
-  Table,
-  TableBody,
-  TableCell,
-  TableHead,
-  TableHeader,
-  TableRow,
-} from "@/components/ui/table"
 import { Popover, PopoverContent, PopoverTrigger } from "@/app/admin/components/ui/popover"
 import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList } from "@/app/admin/components/ui/command"
 import { cn } from "@/lib/utils"

@@ -2,7 +2,7 @@ import { ChildSpecificationProp, SpecificationProp } from "@/app/(legacy)/types"
 import prismadb from "@/lib/prismadb";
 import { NextResponse } from "next/server";
 
-export async function GET(req: Request, props: { params: Promise<{ productSlug: string }> }) {
+export async function GET(_: Request, props: { params: Promise<{ productSlug: string }> }) {
   const params = await props.params;
   try {
     if (!params.productSlug) {

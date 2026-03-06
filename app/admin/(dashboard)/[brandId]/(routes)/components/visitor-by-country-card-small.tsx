@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogClose, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
-import { Dot, Eye, Globe } from "lucide-react";
+import { Dot, Globe } from "lucide-react";
 
 type Props = {
   LiveVisitor: { country: string, users: number }[],

@@ -21,8 +21,6 @@ import {
 } from "@/app/admin/components/ui/form"
 import { Separator } from "@/components/ui/separator"
 import { Heading } from "@/app/admin/components/ui/heading"
-import { AlertModal } from "@/app/admin/components/modals/alert-modal"
-import { ApiAlert } from "@/app/admin/components/ui/api-alert"
 import { useOrigin } from "@/app/admin/hooks/use-origin"
 import { brand } from "@prisma/client"
 import { uploadImage } from "@/app/admin/upload-image"
