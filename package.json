@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
-    "postbuild": "npx tsx sitemap.ts",
     "lint": "next lint",
     "start": "cross-env NODE_ENV=production node server.js",
     "postinstall": "prisma generate",
