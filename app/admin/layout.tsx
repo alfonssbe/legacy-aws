@@ -1,3 +1,5 @@
+"use client"
+
 import { ModalProvider } from '@/app/admin/providers/modal-provider'
 import { ToastProvider } from '@/app/admin/providers/toast-provider'
 import { Toaster } from '../(legacy)/components/ui/toaster'
