@@ -67,6 +67,6 @@ export default function RootLayout({
 }) {
 
   return (
-    <>{children}</>
+    <html lang='en'>{children}</html>
   )
 }

@@ -17,7 +17,7 @@ export default async function AdminRootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <>
       <body className={`${font.className || ''} min-h-fit h-screen overflow-x-hidden bg-background backdrop-brightness-75`}>
     {/* <> */}
       <div className='min-h-full'>
@@ -28,6 +28,6 @@ export default async function AdminRootLayout({
       <Toaster />
     {/* </> */}
        </body>
-     </html>
+     </>
   )
 }

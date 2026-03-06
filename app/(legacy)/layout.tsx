@@ -75,7 +75,7 @@ export default function RootlegacyLayout({
 }) {
   return (
     
-  <html lang="en">
+  <>
     <head>
       <link
         rel="preload"
@@ -107,6 +107,6 @@ export default function RootlegacyLayout({
       <Toaster />
       </body>
       <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID ?? ''} />
-    </html>
+    </>
   )
 }
