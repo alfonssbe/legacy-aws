@@ -1,5 +1,3 @@
-"use client"
-
 import { ModalProvider } from '@/app/admin/providers/modal-provider'
 import { ToastProvider } from '@/app/admin/providers/toast-provider'
 import { Toaster } from '../(legacy)/components/ui/toaster'
@@ -8,10 +6,10 @@ import '@/app/globals.css'
 
 const font = Inter({ subsets: ['cyrillic'] })
 
-// export const metadata = {
-//   title: 'Admin Dashboard',
-//   description: 'All Admin Dashboard',
-// }
+export const metadata = {
+  title: 'Admin Dashboard',
+  description: 'All Admin Dashboard',
+}
 
 export default async function AdminRootLayout({
   children,
