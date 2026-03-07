@@ -7,7 +7,7 @@
     "dev": "node server.js",
     "build": "next build --webpack",
     "lint": "next lint",
-    "start": "cross-env NODE_ENV=production node server.js",
+    "start": "cross-env NODE_ENV=production next start",
     "postinstall": "prisma generate",
     "test": "vitest",
     "test:ui": "vitest --ui",
