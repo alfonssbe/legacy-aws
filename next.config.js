@@ -31,7 +31,7 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'www.legacy.us.com',
+        hostname: 'main.dc41se611e9j2.amplifyapp.com',
         port: '',
         pathname: '/uploads/**',
       },
